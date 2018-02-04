@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.Sheet"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        style="@style/AppTheme.TextView.Subheader.Colored"
+        android:layout_marginBottom="8dp"
+        android:text="@string/units_label" />
+
+    <LinearLayout
+        android:id="@+id/unit_weight_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            style="@style/AppTheme.ListItem.PrimaryLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/weight_unit_label" />
+
+        <TextView
+            android:id="@+id/unit_weight_selected_view"
+            style="@style/AppTheme.ListItem.SecondaryLine"
+            tools:text="Pounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <TextView
+            style="@style/AppTheme.ListItem.PrimaryLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/option_category_label" />
+
+        <TextView
+            android:id="@+id/option_selected_view"
+            style="@style/AppTheme.ListItem.SecondaryLine"
+            tools:text="First option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

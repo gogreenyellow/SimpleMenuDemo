@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SimpleMenuDemo</string>
+
+    <string name="units_label">Units</string>
+
+    <string name="weight_unit_label">Weight</string>
+    <string-array name="weight_unit_array">
+        <item>Kilograms</item>
+        <item>Pounds</item>
+    </string-array>
+
+    <string name="option_category_label">Category of available options</string>
+    <string-array name="available_options_array">
+        <item>First option</item>
+        <item>Second option</item>
+        <item>Third option</item>
+    </string-array>
+
+</resources>
