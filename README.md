@@ -1,4 +1,4 @@
-# Simple Menu Demo
+![Simple Menu Demo](http://gogreenyellow.com/github/simple-menu/h_simple_menu.png)
 
 This repository was created to demonstrate the usage of our implementation of the Material Design
 [Simple Menu](https://material.io/guidelines/components/dialogs.html#dialogs-simple-menus).
